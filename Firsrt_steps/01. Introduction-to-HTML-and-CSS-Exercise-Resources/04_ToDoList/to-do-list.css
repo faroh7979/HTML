@@ -1,0 +1,15 @@
+#date{
+    text-align: center  
+}
+
+#list{
+    margin: 12px;
+}
+nav{
+    background-color: #f7f381;
+    padding: 8px 24 px;
+    width: 500 px;
+    text-size-adjust: 30 px;
+    border: 1 px solid #f7f381;
+    box-shadow: 0 0 10 px 2 px #333333;
+}

@@ -1,0 +1,20 @@
+main{
+    width: 700 px;
+    height: 730 px;
+    border: 1px solid #000000;
+    align-items: center;
+    padding: 10 px 20 px;
+    background-color: #a6e1ec;
+}
+li{
+    width: 595 px;
+    padding: 10 px;
+    margin-bottom: 5 px;
+    font-size: 14 px;
+    border: 1px solid #000000;
+}
+img{
+    width: 200 px;
+    margin-right: 10 px;
+    vertical-align: middle;
+}

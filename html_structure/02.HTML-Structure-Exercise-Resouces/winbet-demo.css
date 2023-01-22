@@ -1,0 +1,19 @@
+header{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+ul{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    background-color: burlywood;
+}
+section{
+    text-align: justify;
+    background-color: burlywood;
+}

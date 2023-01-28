@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+
+}
+
+section{
+    margin-left: 20px;
+}
+
+header{
+    size: 28px;
+    font-style: Italic;
+}

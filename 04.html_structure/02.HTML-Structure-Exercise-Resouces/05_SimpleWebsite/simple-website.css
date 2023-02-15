@@ -1,0 +1,42 @@
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    contain: style;
+}
+
+footer{
+    text-align: center;
+    padding: 10 px;
+    background-color: #444;
+    color: #fff;
+}
+
+ul{
+    background-color: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li{
+    display: inline;
+    size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.Author{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

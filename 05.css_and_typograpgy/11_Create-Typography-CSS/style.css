@@ -1,0 +1,43 @@
+html{
+    font-family: 'Helvetica', 'sans-serif';
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Georgia', 'serif';
+}
+
+blockquote{
+    border-left: rgb(221, 221, 221);
+    font-style: italic;
+    border-left: solid lightgray;
+    text-indent: 20px;
+    
+}
+
+p.right{
+    text-align: right;
+}
+
+thead{
+    background-color: gray;
+    text-align: left;
+}
+
+tr.odd{
+    background-color: lightgray;
+    
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(238, 236, 236);
+}
+
+
+td{
+    padding-right:200px;
+    border: solid 1px lightgray;
+    
+}

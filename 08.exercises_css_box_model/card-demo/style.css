@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+article{
+    height: 500px;
+    width: 340px;
+    margin: 10px;
+    border: 2px solid lightcoral;
+    border-radius: 6px;
+    padding: 10px 18px;
+    background-color: lightgoldenrodyellow;
+}
+
+.img_cont{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.stadium_location{
+    display: inline;
+    text-align: center;
+    color: #EC665D;
+    background-color: #FEEBD6;
+    margin: 85px;
+    padding: 2px;
+}
+
+h3{
+    font-style: italic;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sections, .info{
+    font-family: 'Playball', cursive;
+    
+}
+

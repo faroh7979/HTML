@@ -1,0 +1,95 @@
+body{
+   background-color:  rgb(238, 238, 238);
+   display: grid;
+   grid-template-columns: 5fr 2fr;
+   gap: 20px;
+   grid-template-areas: 
+   "site_title main_navigation"
+   "main aside";
+   margin: 40px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Main_Title{
+    grid-area: site_title;
+    font-size: 59px;
+    font-weight: bold;
+    
+}
+
+.header {
+    text-align: left;
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+}
+
+.first_image{
+    float: right;
+}
+
+.second_img{
+    float: left;
+}
+
+blockquote{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    gap: 20px;
+}
+
+span{
+    display: inline-block;
+    font-family: Georgia, serif;
+    font-style: italic;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+p, h1, h2, h3{
+    padding: 8px 12px;
+}
+
+img{
+    padding: unset;
+    margin: unset;
+    padding: 4px 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) ;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+.right_bq{
+    font-style: italic;
+    border-left: 2px solid lightgrey;
+}
+
+header ul li{
+    display: inline-block;
+    padding-right: 10px;
+    color: rgb(9, 173, 17);
+    grid-area: main_navigation;
+}
+
+header p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(9, 173, 17);
+    text-decoration: none;
+}
+
+.asidev2{
+    list-style-type: disc;
+}

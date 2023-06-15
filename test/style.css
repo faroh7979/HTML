@@ -1,0 +1,48 @@
+body {
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 10%, 60%, 10%;
+    grid-template-areas: 
+    "head"
+    "cont"
+    "cont"
+    "cont"
+    "cont"
+    "cont"
+    "cont"
+    "foot"
+    ;
+    
+}
+.header {
+    grid-area: head;
+    background-color: lightblue;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    
+}
+.header p{
+    color: azure;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.content {
+    grid-area: cont;
+    background-color: lightcoral;
+    
+}
+
+.footer {
+    grid-area: foot;
+    background-color: lightsalmon;
+}
+
+span img{
+    width:15%;
+    position: absolute;
+    top: 10%;
+    padding: 5px;
+}

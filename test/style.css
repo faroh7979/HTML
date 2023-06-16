@@ -1,48 +1,81 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
 body {
-    margin: 5px;
+    background-color: #575859;
+    color:#cfd0d1;
     display: grid;
-    grid-template-rows: 10%, 60%, 10%;
+    gap: 2px;
+    grid-template-rows: repeat(21, 1fr);
     grid-template-areas: 
-    "head"
-    "cont"
-    "cont"
-    "cont"
-    "cont"
-    "cont"
-    "cont"
-    "foot"
+    "vertical"
+    "winbet_header"
+    "navigation_bar"
+    "navigation_bar"
+    "navigation_bar"
+    "navigation_bar"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "section"
+    "betslip"
+    "bottom_bar"
+    "bottom_bar"
     ;
-    
-}
-.header {
-    grid-area: head;
-    background-color: lightblue;
-    overflow: hidden;
-    text-align: center;
-    position: relative;
-    
-}
-.header p{
-    color: azure;
-    position: absolute;
-    top: 40%;
-    left: 40%;
 }
 
-.content {
-    grid-area: cont;
-    background-color: lightcoral;
-    
+.verticals {
+    grid-area: vertical;
+    white-space: nowrap;
+    overflow:hidden;
+    background-color: #48494a;
 }
 
-.footer {
-    grid-area: foot;
-    background-color: lightsalmon;
+.winbetheader {
+    grid-area: winbet_header;
+    background-color: #e42313;
+    white-space: nowrap;
 }
 
-span img{
-    width:15%;
-    position: absolute;
-    top: 10%;
-    padding: 5px;
+.navigationbar {
+    grid-area: navigation_bar;
+}
+
+.sections {
+    grid-area: section;
+}
+
+.betslip {
+    grid-area: betslip;
+}
+
+.bottombar {
+    grid-area: bottom_bar;
+}
+ .verticals span {
+    padding-right: 10px;
+ }
+
+.winbetheader ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+.winbetheader ul img{
+    display: inline;
+    max-height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#perfect {
+    text-align: right;
 }

@@ -36,6 +36,7 @@ body {
     white-space: nowrap;
     overflow:hidden;
     background-color: #48494a;
+    font-size: 1rem;
 }
 
 .winbetheader {
@@ -78,4 +79,8 @@ body {
 
 #perfect {
     text-align: right;
+}
+
+#navburger {
+    padding-right: 50px;
 }
